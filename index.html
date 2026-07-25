@@ -64,6 +64,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .hero-secondary a{color:var(--teal-dk);text-decoration:underline;text-underline-offset:3px;font-weight:500;}
 .hero-secondary a:hover{color:var(--teal);}
 /* Testimonials */
+.hero-visual{border-top:1px solid var(--sand);border-bottom:1px solid var(--sand);line-height:0;}
+.hero-visual img{display:block;width:100%;max-height:440px;object-fit:cover;object-position:center 25%;}
 .testimonials{background:var(--sage);padding:56px 0;border-top:1px solid var(--sand);border-bottom:1px solid var(--sand);}
 .testimonial-wrap{max-width:780px;margin:0 auto;text-align:center;}
 .testimonial-quote{font-family:'Lora',serif;font-size:clamp(1rem,2.2vw,1.18rem);font-style:italic;color:var(--text);line-height:1.78;margin-bottom:26px;position:relative;padding:0 10px;}
@@ -298,6 +300,11 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 <p class="note-caption">Same patient. Same visit. One record shows clinical reasoning, action, and a next step — the other does not.</p>
 </div>
 </section>
+
+<!-- HERO VISUAL -->
+<div class="hero-visual">
+  <img src="attached_assets/provider-patient.jpg" alt="A nurse in warm conversation with a patient, listening closely and offering support during a care visit" loading="lazy"/>
+</div>
 
 <!-- TESTIMONIAL -->
 <section class="testimonials">
