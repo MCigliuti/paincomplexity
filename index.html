@@ -57,8 +57,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .btn:hover{transform:translateY(-2px);box-shadow:var(--shadow);}
 .btn-teal{background:var(--teal);color:#fff;box-shadow:0 4px 14px rgba(40,30,25,0.16);}
 .btn-outline{background:var(--white);color:var(--teal-dk);border:1.5px solid var(--teal-dk);}
-.btn-primary-hero{background:var(--teal);color:#fff;font-size:1.05rem;padding:18px 36px;box-shadow:0 6px 22px rgba(40,30,25,0.18);letter-spacing:0.01em;}
-.btn-primary-hero:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(77,144,128,0.32);}
+.btn-primary-hero{background:var(--teal-dk);color:#fff;font-size:1.08rem;font-weight:600;padding:20px 42px;box-shadow:0 6px 26px rgba(29,94,80,0.32);letter-spacing:0.01em;}
+.btn-primary-hero:hover{transform:translateY(-3px);box-shadow:0 14px 38px rgba(29,94,80,0.40);}
 .hero-secondary{margin-top:16px;font-size:0.84rem;color:var(--text-soft);}
 .hero-secondary a{color:var(--teal-dk);text-decoration:underline;text-underline-offset:3px;font-weight:500;}
 .hero-secondary a:hover{color:var(--teal);}
@@ -276,8 +276,8 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 <div class="eyebrow">Professional education for complexity-informed pain care</div>
 <h1>When Recovery Is Not Progressing,<br/>Look Beyond the Pain Score.</h1>
 <p class="sub triad"><span>See the whole recovery picture.</span> <span>Document the clinical action.</span> <span>Build a stronger plan of care.</span></p>
-<p class="sub">Pain Complexity™ is a clinical framework that helps healthcare professionals identify recovery barriers, strengthen documentation, support medical necessity, improve interdisciplinary communication, and develop more individualized plans of care.</p>
-<p class="sub" style="font-size:0.84rem;color:var(--text-soft);margin-top:14px;">Developed by Marisela Cigliuti, BSN, RN, CCDS — a registered nurse with experience in chronic pain recovery, clinical documentation, case management, quality improvement, risk adjustment, and clinical auditing.</p>
+<p class="sub">Monthly live sessions for nurses, case managers, therapists, and coaches — one focused clinical topic, one de-identified case mapped live, one care plan built as a group.</p>
+<p class="sub" style="font-size:0.9rem;color:var(--teal-dk);font-weight:500;margin-top:10px;">By Marisela Cigliuti, BSN, RN, CCDS — registered nurse &amp; clinical documentation specialist.</p>
 <div class="hero-ctas">
 <a class="btn btn-primary-hero" href="https://square.link/u/O5lzSM2A" rel="noopener noreferrer" target="_blank">Register for Care Planning Thursdays — $49 →</a>
 </div>
@@ -305,6 +305,47 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 <hr class="testimonial-rule"/>
 <p class="testimonial-name">Eva Schonfeld Reichel, LCSW</p>
 <p class="testimonial-role">Psychotherapist, CBT of Central and South Florida &nbsp;·&nbsp; Founding Board Member &amp; Student Membership Chair, CBT Alliance of Florida</p>
+</div>
+</div>
+</section>
+
+<!-- CARE PLANNING THURSDAYS -->
+<section class="section training" id="thursdays">
+<div class="container">
+<div class="eyebrow center">Upcoming education</div>
+<h2 class="center">Care Planning Thursdays</h2>
+<p class="center" style="max-width:640px;margin:0 auto;font-family:'Lora',serif;font-size:1.05rem;color:var(--teal-dk);">Interdisciplinary Education &amp; Pain Complexity Case Reviews</p>
+<div style="max-width:720px;margin:26px auto 0;">
+<p style="margin-bottom:14px;">A monthly live series focused on the clinical and documentation challenges that arise when pain recovery is not progressing as expected. The first series begins September 2026; each session includes a focused teaching topic, structured complexity mapping, de-identified case reflection, care-planning discussion, and Q&amp;A.</p>
+<p style="margin-bottom:14px;"><strong>Initial 4-session series:</strong> September · October · November · December. The first series will run once per month; additional dates may be added if there is enough interest.</p>
+<p style="margin-bottom:6px;"><strong>The inaugural series will focus on:</strong></p>
+<div class="topic-grid" style="justify-content:flex-start;margin-top:10px;">
+<span class="topic">Pain intensity vs pain complexity</span>
+<span class="topic">Recovery readiness</span>
+<span class="topic">Complex case review</span>
+<span class="topic">Flare instability &amp; function</span>
+<span class="topic">Treatment fatigue</span>
+<span class="topic">Scope, referral &amp; collaborative care</span>
+<span class="topic">Measuring progress beyond pain reduction</span>
+</div>
+<p style="font-size:0.85rem;color:var(--text-soft);margin-top:12px;">Future sessions will expand into additional pain complexity indicators and care-planning challenges.</p>
+</div>
+<div class="hero-ctas" style="margin-top:30px;">
+<a class="btn btn-primary-hero" href="https://square.link/u/O5lzSM2A" rel="noopener noreferrer" target="_blank">Register for Care Planning Thursdays — $49 →</a>
+</div>
+<p class="reassure" style="text-align:center;">Seats are limited for case discussion. Registration details announced to the interest list first.</p>
+<div class="interest-box">
+  <h3>Not ready to register? Join the interest list.</h3>
+  <p>Get session dates, topics, and early registration access — announced to the list first.</p>
+  <form id="interestForm" action="https://formspree.io/f/xaqrlond" method="POST" novalidate>
+    <div class="interest-row">
+      <input class="interest-input" type="email" name="email" placeholder="Your email address" required autocomplete="email" aria-label="Email address"/>
+      <button class="interest-btn" type="submit">Join the List</button>
+    </div>
+    <div class="interest-success" id="interestSuccess">You're on the list — session details coming your way. ✓</div>
+    <div class="interest-error" id="interestError">Something went wrong. Please try again or email us directly.</div>
+    <p class="interest-privacy">No spam, ever. Unsubscribe any time.</p>
+  </form>
 </div>
 </div>
 </section>
@@ -441,50 +482,6 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 
 
 
-
-<!-- 5 · CARE PLANNING THURSDAYS (evergreen) -->
-<section class="section training" id="thursdays">
-<div class="container">
-<div class="eyebrow center">Upcoming education</div>
-<h2 class="center">Care Planning Thursdays</h2>
-<p class="center" style="max-width:640px;margin:0 auto;font-family:'Lora',serif;font-size:1.05rem;color:var(--teal-dk);">Interdisciplinary Education &amp; Pain Complexity Case Reviews</p>
-<div style="max-width:720px;margin:26px auto 0;">
-<p style="margin-bottom:14px;">A monthly live series focused on the clinical and documentation challenges that arise when pain recovery is not progressing as expected. The first series begins September 2026; each session includes a focused teaching topic, structured complexity mapping, de-identified case reflection, care-planning discussion, and Q&amp;A.</p>
-<p style="margin-bottom:14px;"><strong>Initial 4-session series:</strong> September · October · November · December. The first series will run once per month; additional dates may be added if there is enough interest.</p>
-<p style="margin-bottom:6px;"><strong>The inaugural series will focus on:</strong></p>
-<div class="topic-grid" style="justify-content:flex-start;margin-top:10px;">
-<span class="topic">Pain intensity vs pain complexity</span>
-<span class="topic">Recovery readiness</span>
-<span class="topic">Complex case review</span>
-<span class="topic">Flare instability &amp; function</span>
-<span class="topic">Treatment fatigue</span>
-<span class="topic">Scope, referral &amp; collaborative care</span>
-<span class="topic">Measuring progress beyond pain reduction</span>
-</div>
-<p style="font-size:0.85rem;color:var(--text-soft);margin-top:12px;">Future sessions will expand into additional pain complexity indicators and care-planning challenges.</p>
-</div>
-<div class="hero-ctas" style="margin-top:30px;">
-<a class="btn btn-teal" href="https://square.link/u/O5lzSM2A" rel="noopener noreferrer" target="_blank">Register for Care Planning Thursdays — $49 →</a>
-</div>
-<p class="reassure" style="text-align:center;">Seats are limited for case discussion. Registration details announced to the interest list first.</p>
-
-<!-- Interest list inline signup -->
-<div class="interest-box">
-  <h3>Not ready to register? Join the interest list.</h3>
-  <p>Get session dates, topics, and early registration access — announced to the list first.</p>
-  <!-- SETUP: Sign up free at formspree.io, create a form, and replace YOUR_FORMSPREE_ID below with your form ID (e.g. "xpwzgkla") -->
-  <form id="interestForm" action="https://formspree.io/f/xaqrlond" method="POST" novalidate>
-    <div class="interest-row">
-      <input class="interest-input" type="email" name="email" placeholder="Your email address" required autocomplete="email" aria-label="Email address"/>
-      <button class="interest-btn" type="submit">Join the List</button>
-    </div>
-    <div class="interest-success" id="interestSuccess">You're on the list — session details coming your way. ✓</div>
-    <div class="interest-error" id="interestError">Something went wrong. Please try again or email us directly.</div>
-    <p class="interest-privacy">No spam, ever. Unsubscribe any time.</p>
-  </form>
-</div>
-</div>
-</section>
 
 <!-- 6 · ABOUT -->
 <section class="section framework" id="about">
