@@ -18,11 +18,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
 :root{
-  --teal:#21695F; --teal-dk:#165249; --teal-soft:#C8DDD9; --bluegreen:#4A8E86;
-  --cream:#F7F4EE; --sage:#CCDDE0; --sand:#DDD6C8; --white:#FFFFFF;
-  --mauve:#7D5E78; --gold:#A8782E; --gold-soft:#F0E3C8;
-  --text:#1E2825; --text-mid:#364F49; --text-soft:#5A6E68;
-  --shadow:0 8px 28px rgba(20,60,55,0.14);
+  --teal:#2B8BA0; --teal-dk:#1D6E82; --teal-soft:#C8E8F2; --bluegreen:#5BAF8E;
+  --cream:#F3F7FA; --sage:#D8EEF3; --sand:#CDD8DF; --white:#FFFFFF;
+  --mauve:#8A5487; --gold:#A8782E; --gold-soft:#F0E3C8;
+  --text:#192733; --text-mid:#2E4A58; --text-soft:#587080;
+  --shadow:0 8px 28px rgba(20,55,80,0.14);
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
@@ -55,10 +55,10 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .eyebrow{font-size:0.73rem;font-weight:600;letter-spacing:0.09em;text-transform:uppercase;color:var(--teal);margin-bottom:12px;}
 .btn{display:inline-block;font-family:'Poppins',sans-serif;font-weight:500;font-size:0.94rem;padding:14px 26px;border-radius:999px;text-decoration:none;transition:transform .15s ease, box-shadow .15s ease;text-align:center;}
 .btn:hover{transform:translateY(-2px);box-shadow:var(--shadow);}
-.btn-teal{background:var(--teal);color:#fff;box-shadow:0 4px 14px rgba(20,60,55,0.18);}
+.btn-teal{background:var(--teal);color:#fff;box-shadow:0 4px 14px rgba(20,55,80,0.18);}
 .btn-outline{background:var(--cream);color:var(--teal-dk);border:1.5px solid var(--teal-dk);}
-.btn-primary-hero{background:var(--teal-dk);color:#fff;font-size:1.05rem;padding:18px 36px;box-shadow:0 6px 22px rgba(20,60,55,0.26);letter-spacing:0.01em;}
-.btn-primary-hero:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(20,60,55,0.32);}
+.btn-primary-hero{background:var(--teal-dk);color:#fff;font-size:1.05rem;padding:18px 36px;box-shadow:0 6px 22px rgba(20,55,80,0.26);letter-spacing:0.01em;}
+.btn-primary-hero:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(20,55,80,0.32);}
 .hero-secondary{margin-top:16px;font-size:0.84rem;color:var(--text-soft);}
 .hero-secondary a{color:var(--teal-dk);text-decoration:underline;text-underline-offset:3px;font-weight:500;}
 .hero-secondary a:hover{color:var(--teal);}
@@ -89,7 +89,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 @media (max-width:840px){.nav-links{display:none;}.menu-btn{display:block;}.nav-cta .btn{display:none;}}
 
 /* Hero */
-.hero{background:linear-gradient(160deg,var(--cream) 0%,#B4D0CB 100%);padding:80px 0 68px;}
+.hero{background:linear-gradient(160deg,var(--cream) 0%,#ADDCE8 100%);padding:80px 0 68px;}
 .hero .container{max-width:840px;text-align:center;}
 .hero .sub{max-width:680px;margin:16px auto 0;}
 .hero-ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px;}
@@ -194,6 +194,30 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .social-row a:hover{background:var(--teal-soft);}
 .warn{font-size:0.78rem;color:var(--text-soft);max-width:560px;margin:18px auto 0;line-height:1.7;}
 
+/* Free Pain Profile lead magnet */
+.freeprofile{background:linear-gradient(135deg,#5A3060 0%,#7A4A7A 100%);padding:60px 0;}
+.freeprofile-inner{max-width:720px;margin:0 auto;text-align:center;}
+.freeprofile-inner .eyebrow{color:rgba(255,255,255,0.7);}
+.freeprofile-inner h2{color:#fff;font-size:clamp(1.35rem,3vw,1.9rem);margin-bottom:16px;}
+.freeprofile-inner p{color:rgba(255,255,255,0.88);}
+.freeprofile-badge{display:inline-block;background:var(--gold);color:#fff;font-family:'Poppins',sans-serif;font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:6px 18px;border-radius:999px;margin-bottom:18px;}
+.freeprofile-body{max-width:620px;margin:0 auto 22px;font-size:0.93rem;line-height:1.75;}
+.freeprofile-funnel{background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.22);border-radius:14px;padding:18px 24px;max-width:600px;margin:22px auto 28px;font-size:0.87rem;color:rgba(255,255,255,0.9);line-height:1.65;text-align:left;}
+.freeprofile-funnel strong{color:#fff;}
+.freeprofile-funnel .fp-price{font-family:'Lora',serif;font-size:1rem;color:var(--gold-soft);font-weight:600;}
+.fp-form{max-width:520px;margin:0 auto;}
+.fp-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:10px;}
+.fp-input{flex:1 1 180px;font-family:'Poppins',sans-serif;font-size:0.88rem;padding:12px 18px;border:1.5px solid rgba(255,255,255,0.35);border-radius:999px;background:rgba(255,255,255,0.12);color:#fff;outline:none;transition:border-color .15s,background .15s;}
+.fp-input:focus{border-color:rgba(255,255,255,0.8);background:rgba(255,255,255,0.18);}
+.fp-input::placeholder{color:rgba(255,255,255,0.55);}
+.fp-btn{font-family:'Poppins',sans-serif;font-weight:600;font-size:0.88rem;padding:12px 24px;border-radius:999px;background:#fff;color:#5A3060;border:none;cursor:pointer;white-space:nowrap;transition:transform .15s,box-shadow .15s;}
+.fp-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,0.18);}
+.fp-btn:disabled{opacity:0.6;cursor:default;transform:none;}
+.fp-success{display:none;font-family:'Lora',serif;font-size:1rem;font-style:italic;color:#fff;padding:14px 0 4px;}
+.fp-error{display:none;font-size:0.8rem;color:#FFB3A0;margin-top:10px;}
+.fp-privacy{font-size:0.74rem;color:rgba(255,255,255,0.5);margin-top:12px;line-height:1.6;}
+@media(max-width:500px){.fp-row{flex-direction:column;}.fp-input,.fp-btn{width:100%;flex:unset;}}
+
 /* Interest list inline form */
 .interest-box{background:var(--teal-soft);border:1px solid #c4deda;border-radius:20px;padding:28px 28px 24px;max-width:520px;margin:28px auto 0;text-align:center;}
 .interest-box h3{font-size:1rem;margin-bottom:6px;color:var(--teal-dk);}
@@ -281,6 +305,32 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 <hr class="testimonial-rule"/>
 <p class="testimonial-name">Eva Schonfeld Reichel, LCSW</p>
 <p class="testimonial-role">Psychotherapist, CBT of Central and South Florida &nbsp;·&nbsp; Founding Board Member &amp; Student Membership Chair, CBT Alliance of Florida</p>
+</div>
+</div>
+</section>
+
+<!-- FREE PAIN PROFILE lead magnet -->
+<section class="freeprofile" id="free-profile">
+<div class="container">
+<div class="freeprofile-inner">
+<div class="freeprofile-badge">$179 value — Free for providers</div>
+<div class="eyebrow center">Free offer</div>
+<h2>Bring your most complex chronic pain case.<br/>Get a free Pain Profile.</h2>
+<p class="freeprofile-body">Complex cases deserve more than a pain scale. Send us your hardest chronic pain case and get a free, nurse-led Pain Profile — a fuller picture across medical, psychological, and social complexity. Useful for care planning, referrals, or just a second clinical lens.</p>
+<div class="freeprofile-funnel">
+<p>Once your Pain Profile is complete, bring the case (de-identified) to <strong>Care Planning Thursdays</strong> — our monthly live case review for clinicians and case managers working complex chronic pain. <span class="fp-price">$49 per session.</span></p>
+</div>
+<form id="profileForm" novalidate>
+<input type="hidden" name="_subject" value="Free Pain Profile Request"/>
+<div class="fp-row">
+<input class="fp-input" type="text" name="name" placeholder="Your name" autocomplete="name" aria-label="Your name"/>
+<input class="fp-input" type="email" name="email" placeholder="Your email address" required autocomplete="email" aria-label="Email address"/>
+<button class="fp-btn" type="submit">Claim My Free Pain Profile →</button>
+</div>
+<div class="fp-success" id="fpSuccess">You're on the list — we'll be in touch to get started on your Pain Profile. ✓</div>
+<div class="fp-error" id="fpError">Something went wrong. Please try again or contact us directly.</div>
+<p class="fp-privacy">Your information is never shared. This offer is for licensed or certified healthcare professionals.</p>
+</form>
 </div>
 </div>
 </section>
@@ -488,6 +538,44 @@ Professional education in recovery readiness, pain complexity assessment, case r
 </footer>
 
 <script>
+(function(){
+  // Free Pain Profile form
+  var pfForm = document.getElementById('profileForm');
+  if(pfForm){
+    var pfBtn = pfForm.querySelector('.fp-btn');
+    var pfSuccess = document.getElementById('fpSuccess');
+    var pfError = document.getElementById('fpError');
+    pfForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var email = pfForm.querySelector('input[type="email"]').value.trim();
+      if(!email) return;
+      pfBtn.disabled = true; pfBtn.textContent = 'Sending…';
+      pfError.style.display = 'none';
+      fetch('https://formspree.io/f/xaqrlond',{
+        method:'POST',
+        headers:{'Accept':'application/json','Content-Type':'application/json'},
+        body:JSON.stringify({
+          name: pfForm.querySelector('input[name="name"]').value.trim(),
+          email: email,
+          _subject:'Free Pain Profile Request'
+        })
+      })
+      .then(function(r){return r.json().then(function(d){return{ok:r.ok,data:d};});})
+      .then(function(res){
+        if(res.ok){
+          pfForm.querySelector('.fp-row').style.display='none';
+          pfForm.querySelector('.fp-privacy').style.display='none';
+          pfSuccess.style.display='block';
+        } else { throw new Error('non-ok'); }
+      })
+      .catch(function(){
+        pfBtn.disabled=false; pfBtn.textContent='Claim My Free Pain Profile →';
+        pfError.style.display='block';
+      });
+    });
+  }
+})();
+
 (function(){
   var form = document.getElementById('interestForm');
   if(!form) return;
