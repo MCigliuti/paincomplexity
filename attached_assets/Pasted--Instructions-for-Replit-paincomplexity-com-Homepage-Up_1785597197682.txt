@@ -1,0 +1,178 @@
+# Instructions for Replit: paincomplexity.com Homepage Update
+
+**Task:** Replace the homepage copy and section order on paincomplexity.com with the content below. Keep the existing site's visual design, fonts, color palette, and nav bar exactly as-is — this is a content and structure change only, not a redesign.
+
+**Do not touch:** site navigation, footer trademark/legal block, disclaimers, social links, or the About/Contact sections' existing structure (light copy edits noted below only).
+
+---
+
+## Section order (top to bottom)
+
+1. Hero
+2. Does This Sound Familiar
+3. The Real Question
+4. Introducing the PCST
+5. How It Works (4-step process)
+6. Why This Matters
+7. Care Planning Thursdays (secondary, existing section — keep mostly as-is, see notes)
+8. Testimonial (keep existing, no changes)
+9. About the Educator (keep existing, no changes)
+10. Why This Matters to Healthcare Organizations (shortened, see notes)
+11. Professional Inquiries / Contact (keep existing, no changes)
+12. Footer (keep existing, no changes)
+
+**Remove entirely:** the standalone "Free offer — Bring your most complex case... Claim My Free Pain Profile" section. Its content is now folded into Section 5 (How It Works) below, so it becomes one path instead of two competing CTAs.
+
+---
+
+## 1. Hero
+
+**Headline:**
+When Chronic Pain Recovery Stalls, Look Beyond the Pain Score.
+
+**Subheadline:**
+The Pain Complexity Screening Tool™ (PCST) is a pilot-stage, nurse-developed care-planning framework that helps organize patient-reported recovery barriers and supports more individualized conversations about recovery.
+
+**Primary button:**
+Schedule a Free Provider Consultation
+→ link: https://calendly.com/paincareathome/20min
+
+**Small text below button (keep existing tone):**
+By Marisela Cigliuti, BSN, RN, CCDS — registered nurse & clinical documentation specialist.
+
+---
+
+## 2. Does This Sound Familiar
+
+**Heading:**
+Does this sound familiar?
+
+**Body:**
+You have patients who —
+
+- Continue to struggle despite appropriate treatment
+- Have seen multiple providers without lasting improvement
+- Feel overwhelmed, discouraged, or unsure what to try next
+- Have recovery barriers that don't fit neatly into a diagnosis or pain score
+
+The challenge may not be identifying the pain. It may be understanding what's making recovery harder.
+
+---
+
+## 3. The Real Question
+
+**Heading:**
+Pain intensity asks one question. Recovery asks another.
+
+**Body — left column or first block:**
+Chronic pain assessment often answers:
+- Where does it hurt?
+- How intense is the pain?
+- What is the diagnosis?
+
+**Body — right column or second block:**
+But when recovery stalls, the more useful questions are often about:
+- Flare patterns
+- Function
+- Confidence
+- Healthcare experiences
+- Daily life
+- Recovery readiness
+
+**Closing line:**
+Recovery isn't shaped by pain alone.
+
+---
+
+## 4. Introducing the PCST
+
+**Heading:**
+The Pain Complexity Screening Tool™
+
+**Body:**
+The PCST is a pilot-stage framework designed to help organize the factors that may be making recovery more difficult into meaningful domains — supporting clearer clinical conversations and more individualized care planning.
+
+It is intended to support, not replace, clinical judgment.
+
+*(Keep existing disclaimer language from the footer/about section that already states it's not a validated diagnostic, predictive, or severity instrument — do not duplicate or shorten that disclaimer elsewhere.)*
+
+---
+
+## 5. How It Works
+
+**Heading:**
+A Structured Approach to Pain Recovery Conversations
+
+**Step 1 — Free Provider Consultation**
+We'll talk about your practice, your patients, and whether the pilot is a good fit.
+
+**Step 2 — Refer a Patient**
+Eligible patients receive a free, nurse-led Pain Profile during the pilot — at no cost to you or your patient.
+
+**Step 3 — Pain Profile**
+Marisela personally conducts the Pain Profile conversation and organizes the findings using the PCST framework. A structured summary is shared with you, the referring provider, to support your own care planning.
+
+**Step 4 — Care Planning**
+The findings help support more individualized conversations about next steps with your patient.
+
+**Button (repeat primary CTA):**
+Schedule a Free Provider Consultation
+→ link: https://calendly.com/paincareathome/20min
+
+---
+
+## 6. Why This Matters
+
+**Heading:**
+Why This Matters
+
+**Body:**
+Understanding pain is important. Understanding why recovery has stalled may be even more important.
+
+The goal isn't to create another score. The goal is to support better conversations, clearer care planning, and more individualized recovery strategies.
+
+---
+
+## 7. Care Planning Thursdays (secondary section — mostly keep existing)
+
+Keep the existing section largely as it is today (series description, topic list, $49 registration link: https://square.link/u/O5lzSM2A, interest-list signup). Two small edits:
+
+- **Add a one-line transition at the top of this section** so it doesn't feel disconnected from the new flow above it:
+  *"Prefer live, case-based learning? Join Care Planning Thursdays."*
+- **Keep this CTA visually secondary** to the "Schedule a Free Provider Consultation" button — smaller button size or lighter color weight, so the two offers don't compete for equal attention.
+
+---
+
+## 8–9. Testimonial & About the Educator
+
+No changes. Keep exactly as currently published.
+
+---
+
+## 10. Why This Matters to Healthcare Organizations (shortened)
+
+Replace the current version with this shorter, outcomes-first version:
+
+**Heading:**
+When complexity is identified, care can finally match it.
+
+**Four short points (icon/card layout, same as current):**
+
+- **Clearer recovery picture** — Barriers that stall progress get named instead of guessed at.
+- **Better-matched care plans** — Support, referrals, and pacing reflect what's actually in the way, not a generic protocol.
+- **Fewer stalled cases** — Teams catch what's missing before another cycle of "continue current plan" goes by.
+- **Documentation that reflects the work** — Records show the clinical reasoning behind the plan, supporting cleaner claims and audit readiness.
+
+---
+
+## 11–12. Contact & Footer
+
+No changes.
+
+---
+
+## Things to double check after implementing
+
+- Only **one** primary CTA (Free Provider Consultation) should appear above the fold and be repeated at most once more (end of How It Works section). Care Planning Thursdays keeps its own $49 CTA but stays visually secondary throughout.
+- No pricing language anywhere should reference monthly/annual provider tiers, onboarding fees, retainers, co-management fees, or practice training — none of that exists in the current model.
+- "Pain Complexity Screening Tool™" should not be the first thing a visitor reads — it should appear only after the hero and "Does This Sound Familiar" sections.
