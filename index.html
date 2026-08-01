@@ -271,6 +271,12 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 /* ── PCST INTRO ──────────────────────────────────── */
 .pcst-inner{max-width:660px;margin:0 auto;text-align:center;}
 .pcst-note{font-family:'Lora',serif;font-style:italic;color:var(--teal-dk);margin-top:20px;font-size:1rem;}
+
+/* ── DARK SECTION OVERRIDES ─────────────────────── */
+/* Eyebrows + headings go light on dark-teal backgrounds */
+#why .eyebrow, #org-value .eyebrow{color:rgba(255,255,255,0.55);letter-spacing:0.1em;}
+#why h2, #org-value h2{color:#fff;}
+#why .closing-line{color:rgba(255,255,255,0.82);font-style:italic;}
 </style>
 </head>
 <body>
@@ -333,7 +339,7 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 </section>
 
 <!-- THE REAL QUESTION -->
-<section class="section" id="why" style="background:var(--white);">
+<section class="section" id="why" style="background:var(--teal-dk);">
 <div class="container">
 <div class="eyebrow center">The real question</div>
 <h2 class="center">Pain intensity asks one question. Recovery asks another.</h2>
@@ -364,7 +370,7 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 </section>
 
 <!-- INTRODUCING THE PCST -->
-<section class="section" id="pcst">
+<section class="section" id="pcst" style="background:var(--cream);">
 <div class="container">
 <div class="pcst-inner">
 <div class="eyebrow center">About the framework</div>
@@ -412,7 +418,7 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 </section>
 
 <!-- WHY THIS MATTERS -->
-<section class="section" id="why-matters" style="background:var(--white);">
+<section class="section" id="why-matters" style="background:var(--teal-soft);">
 <div class="container">
 <div class="inner" style="max-width:620px;margin:0 auto;text-align:center;">
 <div class="eyebrow center">The goal</div>
@@ -476,7 +482,7 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 </section>
 
 <!-- 6 · ABOUT -->
-<section class="section framework" id="about">
+<section class="section framework" id="about" style="background:var(--white);">
 <div class="container">
 <div class="about-inner" style="max-width:760px;margin:0 auto;">
 <div class="eyebrow center">About the educator</div>
@@ -489,7 +495,7 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 </div>
 </section>
 
-<section class="section" id="org-value" style="background:var(--white);">
+<section class="section" id="org-value" style="background:var(--teal-dk);">
 <div class="container">
 <div class="eyebrow center">For healthcare organizations</div>
 <h2 class="center">When complexity is identified, care can finally match it.</h2>
@@ -503,7 +509,7 @@ footer .tm{font-size:0.72rem;color:var(--text-soft);line-height:1.7;}
 </section>
 
 <!-- 7 · CONTACT -->
-<section class="section contact" id="contact">
+<section class="section contact" id="contact" style="background:var(--cream);">
 <div class="container">
 <div class="inner">
 <div class="eyebrow">Professional inquiries</div>
