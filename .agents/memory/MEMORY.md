@@ -1,0 +1,1 @@
+- [Public contact policy](public-contact-policy.md) — keep phone numbers off PainComplexity.com; use scheduling and professional inquiry forms to reduce spam.
