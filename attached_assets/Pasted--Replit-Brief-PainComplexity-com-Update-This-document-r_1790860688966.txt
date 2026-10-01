@@ -1,0 +1,169 @@
+# Replit Brief: PainComplexity.com Update
+
+**This document replaces the earlier "PainComplexity_Website_Rebuild" brief — use this one instead, not both.** It folds in everything: the terminology rename, the research-grounding addition, and a positioning refinement based on a second review of the live site. This is a refinement, not a rebuild — keep the existing layout, sections, and visual design. Every change below is a specific copy edit in a specific place.
+
+Verified against the live site at time of writing — quotes below are exact.
+
+---
+
+## 1. Terminology — apply throughout the page
+
+- **Pain Profile** — the free tier. Unchanged, already correct everywhere it appears.
+- **Pain Recovery Profile™** — the $179 paid tier. Replaces every instance of "Pain Recovery Assessment" and "Pain Recovery Care Plan™."
+- **PCST / Pain Complexity Screening Tool™** — recedes to internal/developmental context. It should not be the first thing a visitor reads. Keep it where it's genuinely useful (the "About the framework" section, the educator bio), but it no longer carries the hero or the primary positioning.
+
+---
+
+## 2. Hero section
+
+**Old:**
+> The Pain Complexity Screening Tool™ (PCST) is a pilot-stage, nurse-developed care-planning framework that helps organize patient-reported recovery barriers and supports more individualized conversations about recovery.
+
+**New:**
+> Pain complexity is more than pain intensity. It's the physical, functional, emotional, cognitive, social, and healthcare-related factors that accumulate over time and make recovery harder to understand and manage.
+>
+> PainComplexity.com provides a framework for clinicians and care teams to see the bigger picture — and the Pain Recovery Profile™, the structured starting point for putting it into practice.
+
+Keep the existing headline above it ("When Chronic Pain Recovery Stalls, Look Beyond the Pain Score.") and the byline/CTA button below it unchanged.
+
+---
+
+## 3. "Pain intensity asks one question" section — add an explicit distinction
+
+Keep this section as-is, and add immediately after the existing two-column comparison:
+
+> Pain intensity isn't the same as pain complexity. Someone can have severe pain with a straightforward recovery picture — or moderate pain with a recovery picture that's genuinely complicated. Complexity describes what's accumulated around the pain, not how much it hurts.
+
+---
+
+## 4. NEW section: Grounded in Current Pain Science
+
+*Placement: insert after "About the framework," before "The process."*
+
+> **Grounded in current pain science**
+>
+> Pain functions as a protective signal, not just a tissue-damage indicator. A 2026 narrative review reframes pain as a response to a "need state" for safety — a reinterpretation of Patrick Wall's original proposition that pain is "better classified as an awareness of a need state than as a sensation." Fatigue, anxiety, and disrupted sleep that travel alongside pain are better understood as co-actions of the same protective system than as separate, unrelated conditions.
+>
+> Chronic pain is common, and more common with age. A 2026 meta-analysis of 52 studies (nearly 290,000 participants) found an overall pooled prevalence of 26.99%, rising from 24.23% in adults 18–45 to 46.68% in adults 45 and older.
+>
+> Mood symptoms accompany chronic pain at high rates. A 2025 meta-analysis of 376 studies (347,468 individuals, 50 countries) found clinically significant depression in 39.3% and anxiety in 40.2% of adults with chronic pain — highest among those with fibromyalgia and nociplastic pain patterns.
+>
+> Pain Profile uses a 12-item subset of the framework; Pain Recovery Profile™ uses the complete 25-item version. Both are still in pilot validation (see below) — what they organize reflects domains the literature already treats as central to why recovery stalls, not categories invented without grounding.
+
+**Citations (footnote or references area):**
+1. Jones LE. Pain as a whole person experience – embracing biopsychosocial clinical reasoning. *PAIN Research*. 2026;41:44–56. doi:10.11154/pain.41.44
+2. Saxena AK, Singh N, Chilkoti GT, Gulabani M, Malhotra RK. Prevalence of chronic pain in the general population: A systematic review and meta-analysis. *Indian J Med Res*. 2026;163:355–370. doi:10.25259/IJMR_1935_2025
+3. Aaron RV, Ravyts SG, Carnahan ND, et al. Prevalence of Depression and Anxiety Among Adults With Chronic Pain: A Systematic Review and Meta-Analysis. *JAMA Netw Open*. 2025;8(3):e250268. doi:10.1001/jamanetworkopen.2025.0268
+
+*Accuracy note: the Saxena paper is internally inconsistent about whether its sex-difference finding is statistically significant (abstract says not significant; its own Discussion section says it is). The copy above avoids that claim for this reason — don't add it elsewhere on the page without hedging it.*
+
+---
+
+## 5. NEW section: What Pain Complexity Is Not
+
+*Placement: in the main content, not the footer — after "Why This Matters."*
+
+> **Pain Complexity is not:**
+> - a diagnosis
+> - a measure of pain severity
+> - a determination of tissue damage
+> - a psychiatric diagnosis
+> - a prediction of treatment response
+> - a replacement for clinical judgment
+>
+> It's a framework for organizing the broader factors that may influence a person's recovery experience and care needs.
+
+---
+
+## 6. Make pilot status explicit, not implied
+
+*Placement: near the top of "The process" section, before the 4 numbered steps.*
+
+> **Current pilot:** We're evaluating how the Pain Recovery Profile™ helps clinicians organize recovery barriers and support more individualized care conversations. Referrals and free Pain Profiles are available now, at pilot scope and capacity.
+
+---
+
+## 7. "For healthcare organizations" — soften two claims
+
+**Old:**
+> ### Fewer stalled cases
+> Teams catch what's missing before another cycle of "continue current plan" goes by.
+
+**New:**
+> ### A clearer reason to reconsider the plan
+> When progress stalls, the framework offers another way to examine what may be missing from the current picture.
+
+**Old (remove entirely — do not relocate):**
+> ### Documentation that reflects the work
+> Records show the clinical reasoning behind the plan, supporting cleaner claims and audit readiness.
+
+If a fourth card is wanted to replace it, use:
+> ### Better-matched care planning
+> Recovery barriers can be identified and discussed more explicitly, helping teams consider whether the current plan reflects the patient's actual needs.
+
+---
+
+## 8. "About the educator" — lead differently
+
+**Old opening line:**
+> She is a registered nurse, pain recovery educator, and founder of Pain Care At Home™, with a background in neurology, case management, clinical documentation, and complex-care review.
+
+**New:**
+> Marisela Cigliuti, BSN, RN, CCDS brings together nursing, neurology, complex-care review, clinical documentation, pain education, and lived experience with persistent pain. The framework emerged from watching how fragmented pain care can become across providers, specialties, and treatment episodes.
+
+Keep the existing sentence about PRT/EAET/mindfulness/trauma-informed training as a follow-up sentence — don't delete it, just don't lead with it.
+
+---
+
+## 9. Professional inquiries — remove phone number, add social
+
+**Old:**
+> Reach out through the professional inquiry form, or call or text 727-266-3933.
+>
+> [Contact Us]
+
+**New:**
+> Reach out through the professional inquiry form below, or connect on social media — all are checked personally.
+>
+> [Contact Us — professional inquiry form]
+>
+> [Instagram] [LinkedIn] [Facebook] [YouTube]
+
+Place these four icons directly under the contact button here, in addition to the footer — not only in the footer, where they currently read as boilerplate rather than an actual invitation.
+
+---
+
+## 10. Footer trademark line
+
+**Old:**
+> Pain Complexity Screening Tool™, Pain Profile™, Pain Recovery Assessment™, and Pain Recovery Care Plan™ are educational or service marks of Pain Care At Home™, where applicable.
+
+**New:**
+> Pain Complexity Screening Tool™, Pain Profile™, and Pain Recovery Profile™ are educational or service marks of Pain Care At Home™, where applicable.
+
+---
+
+## 11. Navigation and process structure (lower priority — do last)
+
+**Nav — old:** Why Complexity | How It Works | Care Planning Thursdays | About | Contact
+**Nav — new:** Why Pain Complexity | Framework | Pain Recovery Profile™ | Education | About | Contact
+
+**Restructure "The process" into four pillars**, replacing the current linear 4-step flow:
+
+> **Learn** — Pain Complexity Framework
+> **Apply** — Pain Recovery Profile™ *(currently available through provider referral during the pilot — not yet a self-serve option; say this explicitly here, not just in the pilot-status callout above)*
+> **Develop** — Pilot & Validation
+> **Educate** — Care Planning Thursdays
+
+The "Apply" pilot caveat matters: without it, this structure reads as if Pain Recovery Profile is a standing self-serve service, which it isn't yet. Keep the caveat in the visible card copy, not just in the earlier pilot-status note — a visitor may land directly on this section without reading the one above it first.
+
+---
+
+## Explicitly not changing
+
+Keep as-is: the "Does this sound familiar?" section, the "Why This Matters" closing lines ("Understanding pain is important. Understanding why recovery has stalled may be even more important." — this is a strong signature statement, don't touch it), the testimonial, Care Planning Thursdays session details, and all visual design and layout.
+
+## Still open — not a copy decision, needs your confirmation before build
+
+- PainCareAtHome.com's own phone number (727-213-8864) is untouched — separate decision, different stakes (it sits on the sales funnel, not the education site).
+- Manually verify Instagram and Facebook links resolve correctly before launch (YouTube confirmed working; LinkedIn's own policy blocks automated verification, not a site issue).
